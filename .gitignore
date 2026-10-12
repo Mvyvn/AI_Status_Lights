@@ -1,0 +1,25 @@
+# 编译产物（obj 下的 makefile / *.mk 是 MRS 的构建脚本，要保留）
+obj/**/*.o
+obj/**/*.d
+obj/**/*.expand
+obj/**/*.234r.expand
+obj/*.hex
+obj/*.elf
+obj/*.lst
+obj/*.map
+obj/*.bin
+obj/*.siz
+
+# MounRiver 本地状态
+.mrs/
+DebugConfig/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.bak
+Thumbs.db
